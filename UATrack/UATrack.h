@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const UATrackPV;
+extern NSString * const UATrackPage;
 extern NSString * const UATrackClick;
-extern NSString * const UATrackPerformance;
-extern NSString * const UATrackTracking;
+extern NSString * const UATrackPerform;
+extern NSString * const UATrackTrack;
 
 @interface UATrack : NSObject
 

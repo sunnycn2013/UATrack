@@ -71,7 +71,7 @@ UATRACK_SYNTHESIZE_SINGLE_CLASS(UATrackManager)
     
     [self.operationQueue addOperationWithBlock:^{
         //如果当前数据没有超过出最大num,继续insert，否则进行一次上报
-        if([_context checkInsertMAAvaiable])
+        if([_context checkInsertMAXAvaiable])
         {
             [_trackDao addItems:model completionHandler:^(BOOL state){
                 //判断插入成功，
@@ -96,7 +96,7 @@ UATRACK_SYNTHESIZE_SINGLE_CLASS(UATrackManager)
     __weak typeof (self) weakself = self;
     [self.operationQueue addOperationWithBlock:^{
         
-        if ([_context checkUploadMAAvaiable])
+        if ([_context checkUploadMAXAvaiable])
         {
             NSMutableArray *list = [_trackDao selectItemsFromLocalStack];
             

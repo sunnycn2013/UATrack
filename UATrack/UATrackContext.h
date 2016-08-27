@@ -19,6 +19,7 @@
 
 #pragma mark - UATrack 配置参数
 @property (nonatomic,assign) NSInteger  maxStackCount;
+@property (nonatomic,assign) NSInteger  minUploadCount;
 @property (nonatomic,assign) double     minUploadTime;
 @property (nonatomic,assign) BOOL       isDebugModel;
 
@@ -26,8 +27,8 @@
 @property (nonatomic,assign) float      lastUploadTime;
 
 + (instancetype)shareInstance;
-- (BOOL)checkInsertMAAvaiable;
-- (BOOL)checkUploadMAAvaiable;
+- (BOOL)checkInsertMAXAvaiable;
+- (BOOL)checkUploadMAXAvaiable;
 - (NSMutableDictionary *)commonInformations;
 
 @end

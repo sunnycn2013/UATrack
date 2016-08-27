@@ -44,6 +44,35 @@
 		B0BC840E1D02D19F00E67D37 /* UATrackMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BC840D1D02D19F00E67D37 /* UATrackMonitor.m */; };
 		B0BC84111D02D7CB00E67D37 /* UATrackFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BC84101D02D7CB00E67D37 /* UATrackFPS.m */; };
 		B0F2E5271D71BF030044A973 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0F2E5261D71BF030044A973 /* README.md */; };
+		B0F2E5301D71C2AF0044A973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F2E52F1D71C2AF0044A973 /* main.m */; };
+		B0F2E5331D71C2AF0044A973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F2E5321D71C2AF0044A973 /* AppDelegate.m */; };
+		B0F2E5361D71C2AF0044A973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F2E5351D71C2AF0044A973 /* ViewController.m */; };
+		B0F2E5391D71C2AF0044A973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F2E5371D71C2AF0044A973 /* Main.storyboard */; };
+		B0F2E53B1D71C2AF0044A973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F2E53A1D71C2AF0044A973 /* Assets.xcassets */; };
+		B0F2E53E1D71C2AF0044A973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F2E53C1D71C2AF0044A973 /* LaunchScreen.storyboard */; };
+		B0F2E5571D71C3780044A973 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 379CEFDA1BE9EB18009F5CF8 /* libz.1.2.5.tbd */; };
+		B0F2E5581D71C3820044A973 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 379CEFC91BE9DF60009F5CF8 /* libsqlite3.tbd */; };
+		B0F2E55C1D71C5C00044A973 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFE71BE9F11E009F5CF8 /* FMDatabase.m */; };
+		B0F2E55D1D71C5C00044A973 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFE91BE9F11E009F5CF8 /* FMDatabaseAdditions.m */; };
+		B0F2E55E1D71C5C00044A973 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFEB1BE9F11E009F5CF8 /* FMDatabasePool.m */; };
+		B0F2E55F1D71C5C00044A973 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFED1BE9F11E009F5CF8 /* FMDatabaseQueue.m */; };
+		B0F2E5601D71C5C00044A973 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFF01BE9F11E009F5CF8 /* FMResultSet.m */; };
+		B0F2E5611D71C5C00044A973 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFF31BE9F11E009F5CF8 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0F2E5621D71C5C00044A973 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEFF81BE9F11E009F5CF8 /* Reachability.m */; };
+		B0F2E5631D71C5C00044A973 /* UATrackGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CD70B31BE85AC500F8D4ED /* UATrackGzip.m */; };
+		B0F2E5641D71C5C00044A973 /* UATrackDES.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37CD70AA1BE853F400F8D4ED /* UATrackDES.mm */; };
+		B0F2E5651D71C5C00044A973 /* UATrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 37966D421BE76DC700297571 /* UATrackUtil.m */; };
+		B0F2E5661D71C5C00044A973 /* UATrackObject+KeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3734CE6F1BE3497D00C147CC /* UATrackObject+KeyValue.m */; };
+		B0F2E5671D71C5C00044A973 /* UATrackDevice+machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CD70AD1BE85A4000F8D4ED /* UATrackDevice+machine.m */; };
+		B0F2E5681D71C5C00044A973 /* UATrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722F2051BE306E900985E19 /* UATrack.m */; };
+		B0F2E5691D71C5C00044A973 /* UATrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722F20D1BE3070F00985E19 /* UATrackManager.m */; };
+		B0F2E56A1D71C5C00044A973 /* UATrackContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722F2181BE307C700985E19 /* UATrackContext.m */; };
+		B0F2E56B1D71C5C00044A973 /* UATrackDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722F2101BE3072200985E19 /* UATrackDao.m */; };
+		B0F2E56C1D71C5C00044A973 /* UATrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722F2131BE3073100985E19 /* UATrackModel.m */; };
+		B0F2E56D1D71C5C00044A973 /* UATrackNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722F21C1BE317D600985E19 /* UATrackNetWork.m */; };
+		B0F2E56E1D71C5C00044A973 /* UATrackConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 3722F21A1BE307F400985E19 /* UATrackConfig.h */; };
+		B0F2E56F1D71C5C00044A973 /* UATrackSingleClass.h in Sources */ = {isa = PBXBuildFile; fileRef = 3734CE711BE3574600C147CC /* UATrackSingleClass.h */; };
+		B0F2E5701D71C5C00044A973 /* UAtrackHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 377D99451BE89E8E000F3E31 /* UAtrackHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +147,16 @@
 		B0BC840F1D02D7CB00E67D37 /* UATrackFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATrackFPS.h; sourceTree = "<group>"; };
 		B0BC84101D02D7CB00E67D37 /* UATrackFPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UATrackFPS.m; sourceTree = "<group>"; };
 		B0F2E5261D71BF030044A973 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0F2E52C1D71C2AF0044A973 /* UATrackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UATrackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F2E52F1D71C2AF0044A973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0F2E5311D71C2AF0044A973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0F2E5321D71C2AF0044A973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0F2E5341D71C2AF0044A973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0F2E5351D71C2AF0044A973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0F2E5381D71C2AF0044A973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0F2E53A1D71C2AF0044A973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0F2E53D1D71C2AF0044A973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0F2E53F1D71C2AF0044A973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +164,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F2E5291D71C2AF0044A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F2E5581D71C3820044A973 /* libsqlite3.tbd in Frameworks */,
+				B0F2E5571D71C3780044A973 /* libz.1.2.5.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +184,7 @@
 			children = (
 				B0F2E5261D71BF030044A973 /* README.md */,
 				3722F2021BE306E900985E19 /* UATrack */,
+				B0F2E52D1D71C2AF0044A973 /* UATrackDemo */,
 				3722F2011BE306E900985E19 /* Products */,
 				9A929FB82C2B855C9F5346CF /* Frameworks */,
 			);
@@ -145,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				3722F2001BE306E900985E19 /* libUATrack.a */,
+				B0F2E52C1D71C2AF0044A973 /* UATrackDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,6 +341,30 @@
 			name = Monitor;
 			sourceTree = "<group>";
 		};
+		B0F2E52D1D71C2AF0044A973 /* UATrackDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B0F2E5311D71C2AF0044A973 /* AppDelegate.h */,
+				B0F2E5321D71C2AF0044A973 /* AppDelegate.m */,
+				B0F2E5341D71C2AF0044A973 /* ViewController.h */,
+				B0F2E5351D71C2AF0044A973 /* ViewController.m */,
+				B0F2E5371D71C2AF0044A973 /* Main.storyboard */,
+				B0F2E53A1D71C2AF0044A973 /* Assets.xcassets */,
+				B0F2E53C1D71C2AF0044A973 /* LaunchScreen.storyboard */,
+				B0F2E53F1D71C2AF0044A973 /* Info.plist */,
+				B0F2E52E1D71C2AF0044A973 /* Supporting Files */,
+			);
+			path = UATrackDemo;
+			sourceTree = "<group>";
+		};
+		B0F2E52E1D71C2AF0044A973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F2E52F1D71C2AF0044A973 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -312,6 +386,23 @@
 			productReference = 3722F2001BE306E900985E19 /* libUATrack.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		B0F2E52B1D71C2AF0044A973 /* UATrackDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F2E5411D71C2AF0044A973 /* Build configuration list for PBXNativeTarget "UATrackDemo" */;
+			buildPhases = (
+				B0F2E5281D71C2AF0044A973 /* Sources */,
+				B0F2E5291D71C2AF0044A973 /* Frameworks */,
+				B0F2E52A1D71C2AF0044A973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UATrackDemo;
+			productName = UATrackDemo;
+			productReference = B0F2E52C1D71C2AF0044A973 /* UATrackDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -330,6 +421,9 @@
 					379CEFD11BE9E16A009F5CF8 = {
 						CreatedOnToolsVersion = 7.1;
 					};
+					B0F2E52B1D71C2AF0044A973 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 3722F1FB1BE306E900985E19 /* Build configuration list for PBXProject "UATrack" */;
@@ -347,9 +441,23 @@
 			targets = (
 				3722F1FF1BE306E900985E19 /* UATrack */,
 				379CEFD11BE9E16A009F5CF8 /* UATrackUniversal */,
+				B0F2E52B1D71C2AF0044A973 /* UATrackDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0F2E52A1D71C2AF0044A973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F2E53E1D71C2AF0044A973 /* LaunchScreen.storyboard in Resources */,
+				B0F2E53B1D71C2AF0044A973 /* Assets.xcassets in Resources */,
+				B0F2E5391D71C2AF0044A973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		379CEFD51BE9E189009F5CF8 /* ShellScript */ = {
@@ -412,7 +520,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0F2E5281D71C2AF0044A973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F2E55C1D71C5C00044A973 /* FMDatabase.m in Sources */,
+				B0F2E55D1D71C5C00044A973 /* FMDatabaseAdditions.m in Sources */,
+				B0F2E55E1D71C5C00044A973 /* FMDatabasePool.m in Sources */,
+				B0F2E55F1D71C5C00044A973 /* FMDatabaseQueue.m in Sources */,
+				B0F2E5601D71C5C00044A973 /* FMResultSet.m in Sources */,
+				B0F2E5611D71C5C00044A973 /* OpenUDID.m in Sources */,
+				B0F2E5621D71C5C00044A973 /* Reachability.m in Sources */,
+				B0F2E5631D71C5C00044A973 /* UATrackGzip.m in Sources */,
+				B0F2E5641D71C5C00044A973 /* UATrackDES.mm in Sources */,
+				B0F2E5651D71C5C00044A973 /* UATrackUtil.m in Sources */,
+				B0F2E5661D71C5C00044A973 /* UATrackObject+KeyValue.m in Sources */,
+				B0F2E5671D71C5C00044A973 /* UATrackDevice+machine.m in Sources */,
+				B0F2E5681D71C5C00044A973 /* UATrack.m in Sources */,
+				B0F2E5691D71C5C00044A973 /* UATrackManager.m in Sources */,
+				B0F2E56A1D71C5C00044A973 /* UATrackContext.m in Sources */,
+				B0F2E56B1D71C5C00044A973 /* UATrackDao.m in Sources */,
+				B0F2E56C1D71C5C00044A973 /* UATrackModel.m in Sources */,
+				B0F2E56D1D71C5C00044A973 /* UATrackNetWork.m in Sources */,
+				B0F2E56E1D71C5C00044A973 /* UATrackConfig.h in Sources */,
+				B0F2E56F1D71C5C00044A973 /* UATrackSingleClass.h in Sources */,
+				B0F2E5701D71C5C00044A973 /* UAtrackHeader.h in Sources */,
+				B0F2E5361D71C2AF0044A973 /* ViewController.m in Sources */,
+				B0F2E5331D71C2AF0044A973 /* AppDelegate.m in Sources */,
+				B0F2E5301D71C2AF0044A973 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0F2E5371D71C2AF0044A973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F2E5381D71C2AF0044A973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0F2E53C1D71C2AF0044A973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F2E53D1D71C2AF0044A973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3722F2081BE306E900985E19 /* Release */ = {
@@ -470,6 +628,20 @@
 			};
 			name = Release;
 		};
+		B0F2E5401D71C2AF0044A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = UATrackDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunny.UATrackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -496,6 +668,13 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B0F2E5411D71C2AF0044A973 /* Build configuration list for PBXNativeTarget "UATrackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F2E5401D71C2AF0044A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

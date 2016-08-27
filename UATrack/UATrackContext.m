@@ -38,12 +38,16 @@ UATRACK_SYNTHESIZE_SINGLE_CLASS(UATrackContext)
  *
  *  @return bool Yes: 可以插入； NO不允许插入
  */
-- (BOOL)checkInsertMAAvaiable
+- (BOOL)checkInsertMAXAvaiable
 {
     BOOL shouldInsertToStack = YES;
     NSInteger num = [_trackDao numberOfCountInCurrentStack];
     if (num > self.maxStackCount) {
         shouldInsertToStack = NO;
+    }
+    
+    if (!shouldInsertToStack) {
+        DBLog(@"stack out of max count..");
     }
     return shouldInsertToStack;
 }
@@ -52,19 +56,15 @@ UATRACK_SYNTHESIZE_SINGLE_CLASS(UATrackContext)
  *
  *  @return bool Yes 上报数据 ； No 不上报
  */
-- (BOOL)checkUploadMAAvaiable
+- (BOOL)checkUploadMAXAvaiable
 {
     BOOL shouldUpload = NO;
     
     NSInteger totalNum = [_trackDao numberOfCountInCurrentStack];
     double currentTime = [[NSDate date] timeIntervalSince1970];
     
-    BOOL numAvaiable = (totalNum > _maxStackCount);
+    BOOL numAvaiable = (totalNum > _minUploadCount);
     BOOL timeAvaiable = ((currentTime - _lastUploadTime) > _minUploadTime);
-    
-    if (numAvaiable) {
-        DBLog(@"stack out of max count..");
-    }
     
     shouldUpload = (numAvaiable || timeAvaiable);
     
