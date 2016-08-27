@@ -26,8 +26,6 @@ UATrack 统计SDK设计初衷暂时只作为一个上报数据工具而存在，
 --libUATrack.a
 ---include
 ----UATrack
-----UATrack.h
-----UATrackpiObject.h
 
 ```
 
